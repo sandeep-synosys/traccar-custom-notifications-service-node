@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "axios": "^1.16.0",
+    "bullmq": "^5.76.8",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "handlebars": "^4.7.9",
+    "handlebars-layouts": "^3.1.4",
+    "mysql2": "^3.22.3",
+    "nodemailer": "^8.0.7",
+    "redis": "^5.12.1",
+    "sequelize": "^6.37.8"
+  }
+}
