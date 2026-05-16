@@ -35,7 +35,7 @@ async function sendAppAlert(notif, packet, reason) {
       return;
     }
 
-    // Find user tokens
+    // Find user tokens stored in db
     const user = await UsersModel.findOne({
       organization,
       user_id: userId,
